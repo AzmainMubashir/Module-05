@@ -51,10 +51,10 @@ header{
     opacity: 0.7;
     margin: 10px 0px;
 }
-header div a{
+header div a, main section div a{
     text-decoration: none;
 }
-header div a button{
+header div a button, main section div a button{
     border: none;
 }
 .btn{
@@ -67,4 +67,18 @@ header div a button{
     font-weight: 600;
     margin: 24px 0px;
     cursor: pointer;
+}
+.card-box{
+    height: 955px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0px;
+}
+.cards{
+    display: flex;
+    margin: 48px 0px;
 }

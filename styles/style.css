@@ -71,6 +71,9 @@ header div a button, main section div a button{
 .card-box{
   width: 100%;
     height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box{
     width: 940px;
@@ -79,7 +82,7 @@ header div a button, main section div a button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 48px 0px 0px 0px;
+    /* margin: 24px 0px 0px 0px; */
 }
 .cards{
   width: 940px;
@@ -104,7 +107,7 @@ header div a button, main section div a button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 36px 0px 0px 0px;
+  /* margin: 24px 0px 0px 0px; */
   text-align: center;
 }
 .card-top-text{
@@ -154,4 +157,72 @@ header div a button, main section div a button{
 }
 .card-btn{
   margin: 48px 0px;
+}
+footer{
+  height: 525px;
+  display: flex;
+  flex-direction: row;
+}
+footer > div{
+  display: flex;
+  
+}
+
+footer div img{
+  width: 681px;
+  height: 523px;
+  /* width: 100%; */
+}
+/* footer > div > div{
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer-text{
+  color: rgb(16, 16, 16);
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0px;
+  opacity: 0.7;
+  text-align: center;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer li{
+  list-style: none;
+}
+
+footer li a{
+  text-decoration: none;
+  color: black;
+}
+
+footer li a img{
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+}
+#x{
+  height: 36px;
+  width: 36px;
+}
+#pin{
+  height: 44px;
+  width: 44px;
+}
+.side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social{
+  width: 590px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }

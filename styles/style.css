@@ -226,19 +226,82 @@ footer section div img{
   justify-content: center;
   align-items: center
 }
-.small-device{
+#small-screen{
   display: none;
 }
 
 /* small device responsive styles */
 
 @media screen and (max-width: 576px) {
-  .banner
-  .card-head
-  .cards
-  .card
-  {
+
+  #big-screen{
+    display: none;
+  }
+  #small-screen{
+    background: rgba(255, 255, 255, 0.8) url('../images/social-bg.png');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .card{
+    height: auto;
+  }
+
+  .banner,
+  .card,
+  .cards,
+  .card-head,
+  .footer-social{
+    width: auto;
+  }
+
+  .card-box{
+    margin-top: 600px;
+  }
+  .card-btn{
+    margin-top: 1300px;
+  }
+  #small-screen{
+    margin-top: 550px;
+  }
+  .side{
+    margin-right: 0;
+  }
+footer section ul li a img{
+  border-radius: 50%;
+} 
+}
+
+/*  Responsive for tablet device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  #big-screen{
+    display: none;
+  }
+  #small-screen{
+    background: rgba(255, 255, 255, 0.8) url('../images/social-bg.png');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .cards{
+    width: 900px;
   }
 
 }

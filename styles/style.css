@@ -265,13 +265,15 @@ footer section div img{
   }
 
   .card-box{
-    margin-top: 600px;
+    margin-top: 500px; 
+
   }
   .card-btn{
-    margin-top: 1300px;
+    margin-top: 1150px;
   }
   #small-screen{
-    margin-top: 550px;
+    margin-top: 450px;
+
   }
   .side{
     margin-right: 0;

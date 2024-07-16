@@ -159,24 +159,22 @@ header div a button, main section div a button{
   margin: 48px 0px;
 }
 footer{
-  height: 525px;
-  display: flex;
-  flex-direction: row;
-}
-footer > div{
-  display: flex;
+  height: 475px;
   
 }
 
-footer div img{
-  width: 681px;
-  height: 523px;
-  /* width: 100%; */
-}
-/* footer > div > div{
+.res-footer{
   display: flex;
-  flex-direction: column;
-} */
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer section div img{
+  width: 681px;
+  height: 475px;
+  margin-left: -20px;
+  margin-bottom: -5px;
+}
 
 .footer-text{
   color: rgb(16, 16, 16);
@@ -186,21 +184,22 @@ footer div img{
   opacity: 0.7;
   text-align: center;
 }
-footer ul{
+.res-footer ul{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer li{
+.res-footer li{
   list-style: none;
+  margin-right: 8px;
 }
 
-footer li a{
+.res-footer a{
   text-decoration: none;
   color: black;
 }
 
-footer li a img{
+.res-footer li a img{
   width: 40px;
   height: 40px;
   margin: 0px 10px 0px 0px;
@@ -217,12 +216,29 @@ footer li a img{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 30px;
 }
 .footer-social{
   width: 590px;
-  height: 312px;
+  height: 475px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center
+}
+.small-device{
+  display: none;
+}
+
+/* small device responsive styles */
+
+@media screen and (max-width: 576px) {
+  .banner
+  .card-head
+  .cards
+  .card
+  {
+    width: auto;
+  }
+
 }
